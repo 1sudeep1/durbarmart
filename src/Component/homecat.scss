@@ -1,0 +1,23 @@
+$brand: #DC3545;
+$gray: #F4F4F4;
+$footer: #EA6666;
+.ham{
+    i{
+        display: block;
+    }  
+}
+.hambtn{
+    width: 50px !important;
+    background-color: gray;
+    display: none !important;
+    position:absolute;
+    right: 15px !important; top: 15px;
+}
+.offcanvas-header{
+    background: $brand;
+
+}
+
+.offcanvas-body{
+    list-style: none;
+}

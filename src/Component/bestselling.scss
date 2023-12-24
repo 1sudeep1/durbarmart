@@ -1,0 +1,49 @@
+$brand: #DC3545;
+$gray: #F4F4F4;
+$footer: #EA6666;
+.bestselling {
+
+    transition: 0.5s;
+    border: 1px solid $gray;
+    position: relative;
+    overflow: hidden;
+
+    .ls {
+        position: absolute;
+        top: 10% !important;
+        left: 25% !important;
+        transform: translateX(-730%) !important;
+    }
+    &:hover{
+        .ls{
+            transform: translateX(0%) !important;
+            li {
+                margin: 15px 0;
+    
+                i {
+                    padding: 5px;
+                    background: $brand;
+                    color: white;
+                }
+            }
+        }
+        .bsp{
+            transition: 0.5s;
+            transform: scale(1.05);
+        }
+        
+        cursor: pointer;
+    }
+
+}
+.ellipsis{
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    white-space:pre-wrap
+}
+// .owl-carousel .owl-nav.disabled{
+//     display: block;
+   
+// }

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+$brand: #DC3545;
+$gray: #F4F4F4;
+$footer: #EA6666;
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+.tt{
+    position: fixed;
+    width: 100%; top:0; left:0; z-index: 2;
+}
+.hh{
+    position: fixed;
+    width: 100%; top:7%; left:0; z-index: 2;
+}
+
+@media (min-width:0px) and (max-width:576px){
+    .top{
+        display: none;
+    }
+    .fs{
+        display: none !important;
+    }
+    .icc{
+        display: none ;
+    }
+    .formsearch .search{
+        top:-46px !important; right: 40% !important;
+    }
+    .hambtn{
+        display: block !important;  top:14px !important;
+    }
+    .homecat{
+        display: none;
+    }
+    .hh{
+        display: none;
+    }
+    footer{
+        text-align: center;
+        .fsicon{
+            margin-left: 40%;
+        }
+    }
+    .trackorder{
+        margin-top: 0px;
+    }
+    .bi-person{
+        bottom: 0;
+    }
+    .bi-envelope{
+        bottom: 0;
+    }
+    .bi-file-lock{
+        bottom: 0;
+    }
+
+
+}
+
+@media (min-width:577px) and (max-width:768px){
+    .hambtn{
+        display: block !important; 
+        top:20%;
+    }
+    .homecat{
+        display: none;
+    }
+    .icc{
+        display: none ;
+    }
+    .tt{
+        width: 80%;
+        display: none !important;
+    }
+    .hh{
+        display: none !important;
+    }
+    .fs{
+        display: none !important; width: 700px !important;
+    }
+    .formsearch .search{
+        top:0px!important; right:-50%; min-height: 50px;
+    }
+    .hambtn{
+        display: block !important;  top:19% !important;
+    }
+    .trackorder{
+        margin-top: 0px;
+    }
+    .trackorder{
+        margin-top: 0px;
+    }
+    .bi-person{
+        bottom: 0;
+    }
+    .bi-envelope{
+        bottom: 0;
+    }
+    .bi-file-lock{
+        bottom: 0;
+    }
+}

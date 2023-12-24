@@ -1,0 +1,78 @@
+$brand: #DC3545;
+$gray: #F4F4F4;
+$footer: #EA6666;
+
+header {
+    background: white;
+    transition: 0.9s;
+    width: 100%; right:0;
+    .logo{
+        width: 180px;
+    }
+}
+
+.formsearch {
+    position: relative;
+
+    .search {
+        position: absolute;
+        right: 8px;
+        bottom: 0;
+        top: 0;
+        border-radius: 0 5px 5px 0;
+        background: $brand;
+        border: none;
+        i{
+            color: white;
+        }
+    }
+}
+.icon1 {
+    position: relative;
+.coma{
+    width: 30px; height: 40px;
+}
+    .noti {
+        position: absolute;
+        top: -5px;
+        right: -9px;
+        font-size: 15px;
+        background: $brand;
+        color: white;
+        padding: 0px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .notiname {
+        position: absolute;
+        top: -25px;
+        left: -15px;
+        background: black;
+        color: white;
+        padding: 0 2px;
+        display: none;
+        z-index: 1 !important;
+        
+        &::after{
+            content: "";
+            width: 15px; height: 15px; background:black; bottom: -2px; left: 40%;
+            position: absolute;
+            transform: rotate(45deg);
+            z-index: -1 !important;
+        }
+    }
+}
+.bi-heart, .bi-cart , .bi-house{
+    color: black;
+}
+
+.icon1:hover {
+    .notiname {
+        display: block;
+    }
+}
+
+

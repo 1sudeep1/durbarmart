@@ -1,0 +1,45 @@
+$brand: #DC3545;
+$gray: #F4F4F4;
+$footer: #EA6666;
+.slider {
+    position: relative;
+
+    // .owl-prev {
+    //     span {
+    //         font-size: 50px;
+    //         font-weight: bold;
+    //     }
+
+    //     position: absolute;
+    //     left: 0;
+    //     top:40%;
+    // }
+
+    // .owl-next {
+    //     span {
+    //         font-size: 50px;
+    //         font-weight: bold;
+    //     }
+
+    //     position: absolute;
+    //     right: 0;
+    //     top:40%;
+    // }
+    
+    .owl-dots {
+        display: inline-block;
+        margin-left: 40%;
+
+        .owl-dot {
+            span {
+                width: 30px;
+                height: 3px;
+                background: $brand;
+            }
+        }
+    }
+    .owl-carousel .owl-dots{
+        display: block !important;
+    }
+}
+
